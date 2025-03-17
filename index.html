@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barış Güngör's Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <p class="nav-logo">BARIŞ</p>
+        <div class="nav-menu">
+            <a href="#about" class="nav-item">About</a>
+            <a href="#education" class="nav-item">Education</a>
+            <a href="#skills" class="nav-item">Skills</a>
+            <a href="#projects" class="nav-item">Projects</a>
+            <a href="#community-membership" class="nav-item">Memberships</a>
+            <a href="#certificates" class="nav-item">Certificates</a>
+            <a href="#contact" class="nav-item">Contact</a>
+        </div>
+        <span class="menu-btn" onclick="toggleNav()">&#9776;</span>
+    </nav>
+
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="close-btn" onclick="toggleNav()">&times;</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#education" class="nav-item">Education</a>
+        <a href="#skills" class="nav-item">Skills</a>
+        <a href="#projects" class="nav-item">Projects</a>
+        <a href="#community-membership" class="nav-item">Memberships</a>
+        <a href="#certificates" class="nav-item">Certificates</a>
+        <a href="#contact" class="nav-item">Contact</a>
+    </div>
+
+    <header>
+        <div class="header-info">
+            <img src="images/profile.jpg" alt="Profile Photo">
+            <div>
+                <h1>Barış GÜNGÖR</h1>
+                <p class="greeting">
+                    Hello, I'm Barış. I am a student in the Software Engineering department at Ankara University. 
+                    I have developed myself through hands-on experience with projects in the field of web technologies. 
+                    My career goal is to specialize in data science and create meaningful value in this area.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About</h2>
+        <div class="about_container">
+            <img src="images/about.jpg" alt="" class="about_img">
+            <div class="about-data">
+                <div class="about-desc">
+                    <p>My core values such as strong self-discipline, a sense of responsibility and empathy, enable me to continuously grow both in my projects and personal development. 
+                        My empathetic approach helps me contribute to team projects in a more solution-oriented and collaborative way.
+                        <br> I have adopted the following principle as a guiding mindset: <br>
+                        'WE CAN MAKE IT BETTER'
+                    </p>
+                    
+                </div>
+                <div class="about_info">
+                    <div>
+                        <span class="about_info-title">1</span>
+                        <span class="about_info-name">Community <br> Membership</span>
+                    </div>
+
+                    <div>
+                        <span class="about_info-title">3</span>
+                        <span class="about_info-name">Completed <br> Project</span>
+                    </div>
+
+                    <div>
+                        <span class="about_info-title">2</span>
+                        <span class="about_info-name">Ongoing <br> Project</span>
+                    </div>
+                </div>
+
+                <div class="about_buttons">
+                    <a href="pdf/CV English.pdf" class="button button-flex">
+                        Download CV (English) <i class="uil uil-download-alt button_icon"></i>
+                    </a>
+                    <a href="pdf/CV Türkçe.pdf" class="button button-flex">
+                        Download CV (Turkish) <i class="uil uil-download-alt button_icon"></i>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="timeline_container">
+            <div class="timeline">
+                <div class="education">
+                    <div class="edu-content">
+                        <h2>High School</h2>
+                        <h3>Kadıköy Anatolian High School</h3>
+                        <h4>Sep 2016 - June 2021</h4>
+                    </div>
+                </div>
+                <div class="education">
+                    <div class="edu-content">
+                        <h2>Software Engineering</h2>
+                        <h3>Ankara University</h3>
+                        <h4>Sep 2022 - June 2026 (Expected)</h4>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills_container">
+            <div class="skill-item">
+                <h3 class="skill-title"><i class="uil uil-java-script skill-icon"></i>JavaScript</h3>
+                <div class="skill-bar"><div class="skill-fill excellent"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3 class="skill-title"><i class="uil uil-database skill-icon"></i>SQL</h3>
+                <div class="skill-bar"><div class="skill-fill excellent"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3 class="skill-title"><i class="devicon-nodejs-plain skill-icon"></i>Node.js</h3>
+                <div class="skill-bar"><div class="skill-fill excellent"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3 class="skill-title"><i class="devicon-mysql-plain skill-icon"></i>MySQL</h3>
+                <div class="skill-bar"><div class="skill-fill excellent"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3 class="skill-title"><i class="uil uil-letter-english-a skill-icon"></i>English</h3>
+                <div class="skill-bar"><div class="skill-fill good"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3 class="skill-title"><i class="devicon-python-plain skill-icon"></i>Python</h3>
+                <div class="skill-bar"><div class="skill-fill good"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3 class="skill-title"><i class="fa-solid fa-file-excel skill-icon"></i>Microsoft Excel</h3>
+                <div class="skill-bar"><div class="skill-fill good"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3 class="skill-title"><i class="fa-solid fa-file-word skill-icon"></i>Microsoft Word</h3>
+                <div class="skill-bar"><div class="skill-fill good"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3 class="skill-title"><i class="fa-solid fa-file-powerpoint skill-icon"></i>Microsoft PowerPoint</h3>
+                <div class="skill-bar"><div class="skill-fill good"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3 class="skill-title"><i class="uil uil-html5 skill-icon"></i>HTML</h3>
+                <div class="skill-bar"><div class="skill-fill good"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3 class="skill-title"><img src="https://simpleicons.org/icons/canva.svg" class="skill-icon canva-icon">Canva</h3>
+                <div class="skill-bar"><div class="skill-fill good"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3 class="skill-title"><img src="https://simpleicons.org/icons/express.svg" class="skill-icon express-icon">Express.js</h3>
+                <div class="skill-bar"><div class="skill-fill good"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3 class="skill-title"><img src="https://simpleicons.org/icons/qt.svg" class="skill-icon qt-icon">PyQt5</h3>
+                <div class="skill-bar"><div class="skill-fill good"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3 class="skill-title"><img src="https://simpleicons.org/icons/cplusplus.svg" class="skill-icon cpp-icon">C/C++</h3>
+                <div class="skill-bar"><div class="skill-fill good"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3 class="skill-title"><i class="uil uil-code-branch skill-icon"></i>Git</h3>
+                <div class="skill-bar"><div class="skill-fill medium"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3 class="skill-title"><i class="uil uil-css3-simple skill-icon"></i>CSS</h3>
+                <div class="skill-bar"><div class="skill-fill medium"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3 class="skill-title">
+                    <i class="devicon-labview-plain skill-icon labview-icon"></i>LabVIEW</h3>
+                <div class="skill-bar"><div class="skill-fill medium"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3 class="skill-title"><i class="uil uil-chart-line skill-icon"></i>Data Analysis</h3>
+                <div class="skill-bar"><div class="skill-fill beginner"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3 class="skill-title">
+                    <i class="devicon-microsoftsqlserver-plain skill-icon"></i>Microsoft SQL Server</h3>
+                <div class="skill-bar"><div class="skill-fill beginner"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3 class="skill-title">
+                    <i class="devicon-figma-plain skill-icon"></i>Figma</h3>
+                <div class="skill-bar"><div class="skill-fill beginner"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="swiper mySwiper projects_container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide project">
+                    <div class="project-header">
+                        <img src="images/ChatWork.jpg" alt="ChatWork" class="project-img">
+                        <h2>ChatWork Real Time Messaging App</h2>
+                        <h4>Oct 2024 - Jan 2025</h4>
+                    </div>
+                    <div class="project-desc">
+                        <p class="desc-item">
+                            This project is a web-based, real-time messaging and voice calling application developed using HTML, CSS, JavaScript, Node.js, Express.js, Socket.io and MySQL,
+                            designed to explore web application capabilities and establish a small-scale communication ecosystem within a classroom or department. 
+                            My contributions including database design, application connectivity, seamless frontend-backend integration, the development of core messaging features, and the implementation of search functionalities, 
+                            make this project my most extensive and rewarding development experience, significantly enhancing my individual problem-solving skills and fostering exceptional team time management. 
+                            For my graduation project, I plan to expand the application by integrating video calling functionality and deploying it for public access.  
+                        </p>
+                        <a href="https://github.com/elifnurtekay/Real-Time-Messaging-andVoice-Call-Platform" target="_blank" class="repo-link button">GitHub Repo</a>   
+                    </div> 
+                </div>
+                <div class="swiper-slide project">
+                    <div class="project-header">
+                        <img src="images/ZBY.jpeg" alt="ZBY" class="project-img">
+                        <h2>ZBY Library Management System App</h2>
+                        <h4>Oct 2023 - Jan 2024</h4>
+                    </div>
+                    <div class="project-desc">
+                        <p class="desc-item">
+                            This project involved developing a desktop-based library management system for our department's newly established library, designed for immediate implementation to streamline book management, user registration, and overall library operations. 
+                            Utilizing Python, PyQt5, MySQL, and Qt Designer, the system provides an efficient and user-friendly interface. As part of a three-member team, my contributions centered on backend development, database design and data management, 
+                            ensuring the system's reliability and functionality. This project significantly strengthened my research skills and deepened my understanding of real-world software development. 
+                            As my first collaborative team project, it effectively bridged the gap between theoretical knowledge and practical application, while also enhancing my communication and teamwork abilities.     
+                        </p>
+                        <a href="https://github.com/yusufdemiir/librarySystemManagement" target="_blank" class="repo-link button">GitHub Repo</a>   
+                    </div> 
+                </div>
+                <div class="swiper-slide project">
+                    <div class="project-header">
+                        <img src="images/2209-A.png" alt="2209-A" class="project-img">
+                        <h2>TÜBİTAK 2209-A Project: IoT Tabanlı Çoklu pH Ölçüm Sisteminin Tasarımı <br> 
+                            ve Yönetim Dashboard’unun Geliştirilmesi</h2>
+                        <h4>Nov 2024 - Ongoing</h4>
+                    </div>
+                    <div class="project-desc">
+                        <p class="desc-item">
+                            This project aims to develop a multi-sensor pH measurement system integrated with software for pH regulation, addressing the critical need to maintain water pH balance for ecosystem stability and biological health, 
+                            with applications in agricultural irrigation, potable water monitoring, and aquaculture. Our four-person team designed a LabVIEW interface, successfully visualizing data from an Arduino using virtual inputs for initial testing. 
+                            We are now advancing to the development phase, focusing on incorporating real-world data to refine the system and ensure its practical effectiveness across diverse sectors.
+                        </p>
+                        <a href="pdf/2209-A.pdf" class="repo-link button">Project Document</a>   
+                    </div> 
+                </div>
+                <div class="swiper-slide project">
+                    <div class="project-header">
+                        <img src="images/ScheduleX.svg" alt="2209-A" class="project-img">
+                        <h2>ScheduleX</h2>
+                        <h4>Oct 2024 - Ongoing</h4>
+                    </div>
+                    <div class="project-desc">
+                        <p class="desc-item">
+                            ScheduleX is an application designed to generate optimal class schedules by factoring in course availability, classroom resources, instructor schedules, and user-defined priorities. 
+                            Users can assign priority levels to courses based on their importance, while classrooms are selected according to their capacity, equipment, and specialized requirements. 
+                            Instructor availability is also integrated into the schedule generation process. This ensures that high-priority courses are scheduled effectively, and classrooms and instructors are assigned based on their specific needs and preferences. 
+                            The application aims to streamline school management processes, ensure consistent class delivery, and optimize time and resource utilization. The documentation was completed by a team of six, and the coding phase is currently underway with a team of five, 
+                            following the departure of three members and the addition of two new members.
+                        </p>
+                        <a href="pdf/ScheduleX Final Document.pdf" class="repo-link button">Project Document</a>   
+                    </div> 
+                </div>
+                <div class="swiper-slide project">
+                    <div class="project-header">
+                        <img src="images/AttendX.png" alt="2209-A" class="project-img">
+                        <h2>AttendX</h2>
+                        <h4>Mar 2024 - June 2024</h4>
+                    </div>
+                    <div class="project-desc">
+                        <p class="desc-item">
+                            AttendX is a digital attendance management system designed to streamline university attendance processes. 
+                            Developed by a team of six, I contributed to documentation and communication. 
+                            The system comprises a web interface (AttendX-Hub), a mobile application (AttendX-Terminal), and a Java-based backend. 
+                            Key features include automated attendance tracking, real-time performance monitoring, and comprehensive reporting for students and teachers. Built with React, Spring Boot and Docker, 
+                            AttendX ensures cross-platform compatibility, data security, and scalability. Future enhancements include AI integration to improve user experience and efficiency.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/dev-zgr/attendx-backend-v1" target="_blank" class="repo-link button button-flex">GitHub Repo (Backend)</a>
+                            <a href="https://github.com/dev-zgr/attendx-frontend-v1" target="_blank" class="repo-link button button-flex">GitHub Repo (Hub)</a>   
+                            <a href="https://github.com/dev-zgr/attendx_terminal-v1" target="_blank" class="repo-link button button-flex">GitHub Repo (Terminal)</a>
+                            <a href="videos/attendx_video.mp4" class="repo-link button button-flex">Promotional Video</a>      
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev">
+                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-button-next">
+                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="community-membership">
+        <h2>Community Memberships</h2>
+        <div class="membership_container">
+            <div class="membership-item">
+                <div class="membership_overall">
+                    <h3 class="membership-role">Board Member</h3>
+                    <h2 class="membership-name">Ankara Üniversitesi Dijital Teknolojiler ve Yazılım (Digiware) Topluluğu</h2>
+                    <h4 class="membership-date">Mar 2025 - Ongoing</h4>
+                </div>
+                <div class="membership_desc">
+                    <p> I am currently leading the organizing team, directing all aspects of the event. 
+                        My ongoing responsibilities include coordinating tasks, assigning roles, facilitating seamless team communication, and enforcing deadlines. 
+                        I am also proactively resolving challenges to ensure the event's successful and continuous progress.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <div class="swiper mySwiper certificates_container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide certificate">
+                    <h3 class="certificate_org">BTK Akademi</h3>
+                    <h2 class="certificate-name">C++ ile Programlamaya Giriş</h2>
+                    <h4 class="certificate-date">Mar 2023</h4>
+                    <a href="pdf/BTK Akademi C++ İle Programlamaya Giriş.pdf" class="repo-link button button-flex">View</a>
+                </div>
+                <div class="swiper-slide certificate">
+                    <h3 class="certificate_org">Udemy</h3>
+                    <h2 class="certificate-name">Nesne Yönelimli Programlama (C++ ile)</h2>
+                    <h4 class="certificate-date">May 2023</h4>
+                    <a href="pdf/Udemy Nesne Yönelimli Programlama (C++ İle).pdf" class="repo-link button button-flex">View</a>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev">
+                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-button-next">
+                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="contact">
+        <div class="contact-content">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p><i class="uil uil-envelope-alt contact_icon"></i> <br> <a href="mailto:barisgngr14@gmail.com">barisgngr14@gmail.com</a></p>
+                <p><i class="uil uil-github-alt contact_icon"></i> <br> <a href="https://github.com/barisgngr14" target="_blank">github.com/barisgngr14</a></p>       
+            </div>
+            <div class="contact-info">            
+                <p><i class="uil uil-instagram contact_icon"></i> <br> <a href="https://www.instagram.com/barisgngr14" target="_blank">instagram.com/barisgngr14</a></p>
+                <p><i class="uil uil-map-marker contact_icon"></i> <br> Maltepe, İSTANBUL</p>
+                <p><i class="uil uil-linkedin-alt contact_icon"></i> <br> <a href="https://www.linkedin.com/in/barisgngr14" target="_blank">linkedin.com/in/barisgngr14</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="last_update">Last Update: 17/03/2025 13.16</p>
+        <p class="footer-text">&copy; 2025 Barış GÜNGÖR. - All Rights Reserved.</p>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 50,
+            cssMode: true,
+            loop: false,
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            type: 'progressbar',
+            clickable: true
+        },
+        mousewheel: true,
+        keyboard: true,
+        speed: 500,
+        });
+
+    </script>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
