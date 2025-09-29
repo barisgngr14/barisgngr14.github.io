@@ -47,7 +47,7 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;               /* Küçük ekranlarda alt alta geç */
+    flex-wrap: wrap; 
     padding: 1rem;
     box-sizing: border-box;
 }
@@ -98,7 +98,6 @@ section {
 .membership,
 .skill-item {
     background: #ffbab3;
- /* Gradyan katmanı */
     padding: 15px;
     margin: 10px auto;
     border-radius: 5px;
@@ -185,7 +184,7 @@ h1{
     font-size: 36px;
     margin-left: 50px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 932px) {
     .nav-menu {
         display: none;
     }
@@ -200,29 +199,29 @@ h1{
 
 .about_container {
     display: flex;
-    align-items: center;         /* Dikey hizalama */
-    justify-content: center; /* Elemanları yatayda yayar */
-    gap: 2rem;                  /* Öğeler arası boşluk */
+    align-items: center;        
+    justify-content: center; 
+    gap: 2rem;
     flex-wrap: wrap;
-    margin: 0 auto;                  /* Ortala */
-    padding: 0 2rem;                 /* Kenar boşluğu */
-    box-sizing: border-box;         /* Küçük ekranlarda alt alta geçsin */
-    min-width: 250px;                  /* Çok dar ekranlarda bozulmayı önle */
+    margin: 0 auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    min-width: 250px;
     width: 100%;
 }
 
 .about_img {
     width: 45%;
     min-width: 250px;
-    max-width: 500px;           /* Görsel responsive olsun */
+    max-width: 500px;
     border-radius: .5rem;
     
 }
 
 .about-data {
     background: #ffbab3;
-    flex: 1;                   /* Yazı kısmı genişliği doldursun */
-    min-width: 250px;          /* Küçük ekranlarda kırılmayı önler */
+    flex: 1; 
+    min-width: 250px;  
     max-width: 600px;
     box-sizing: border-box;
     border-radius: 5px;
@@ -233,11 +232,11 @@ h1{
 
 .about_info {
     display: flex;
-    justify-content: space-evenly; /* Elemanları ortaya hizala */
+    justify-content: space-evenly; 
     gap: 1rem;  
-    margin-top: 2rem;             /* Sabit boşluk */
+    margin-top: 2rem; 
     margin-bottom: 1.5rem;
-    flex-wrap: wrap;         /* Küçük ekranlarda alt alta geç */
+    flex-wrap: wrap;
 }
 
 .about_info-title{
@@ -262,7 +261,7 @@ h1{
     }
 
     .about_container {
-        flex-wrap: nowrap;      /* Büyük ekranlarda yan yana kalsın */
+        flex-wrap: nowrap; 
     }
 
     .about_buttons{
@@ -273,13 +272,13 @@ h1{
 
 @media screen and (max-width: 1024px) {
     .about_container {
-        flex-direction: column;      /* Küçük ekranlarda alt alta geç */
+        flex-direction: column;
         text-align: center;
-        align-items: center;          /* Metni ortala */
+        align-items: center;  
     }
 
     .about_img {
-        width: 80%;                  /* Küçük ekranlarda genişlet */
+        width: 80%; 
     }
 
     .about-data {
@@ -290,32 +289,32 @@ h1{
 
 @media screen and (max-width: 400px) {
     .header-info {
-        flex-direction: column;   /* Çok küçük ekranlarda alt alta geç */
-        text-align: center;       /* Metni ortala */
+        flex-direction: column;   
+        text-align: center;  
     }
 
     header img {
-        width: 150px;             /* Küçük ekranlarda daha küçük resim */
-        padding: calc(var(--border) / 2 + var(--gap)); /* Padding'i küçült */
+        width: 150px;           
+        padding: calc(var(--border) / 2 + var(--gap));
     }
 
     .greeting {
-        font-size: 0.9rem;        /* Yazıyı biraz küçült */
+        font-size: 0.9rem; 
     }
 }
 
 @media screen and (max-width: 350px) {
     .about-data {
-        display: block;                   /* Flex varsa kaldır, blok düzen */
-        width: 100%;                      /* Tam genişlikte yayıl */
-        padding: 0.5rem;                  /* Kenar boşlukları küçült */
-        text-align: center;               /* Metni ortala */
+        display: block;             
+        width: 100%;  
+        padding: 0.5rem; 
+        text-align: center;  
     }
 
     .about-desc p {
-        font-size: 0.8rem;                /* Yazı boyutunu küçült */
-        line-height: 1.4;                 /* Satır aralığını daralt */
-        margin: 0.5rem 0;                 /* Yazı çevresindeki boşluk */
+        font-size: 0.8rem; 
+        line-height: 1.4;  
+        margin: 0.5rem 0;
     }
 }
 
@@ -328,7 +327,7 @@ h1{
 .contact-info {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    margin: 0 auto; /* Ortalamak için */
+    margin: 0 auto; 
     gap: 15px;
     text-align: center;
 }
@@ -336,9 +335,9 @@ h1{
 .contact-info p {
     font-weight: bold;
     margin: 5px 0;
-    max-width: 250px; /* Yazıların fazla genişlememesini sağlıyor */
-    word-wrap: break-word; /* Uzun kelimelerin taşmasını engeller */
-    justify-self: center; /* Grid içinde ortalar */
+    max-width: 250px; 
+    word-wrap: break-word; 
+    justify-self: center; 
 }
 
 .contact-info a {
@@ -388,15 +387,13 @@ h1{
     height: auto;
 }
 
-/* Genel progressbar stilini değiştirin */
 .swiper-pagination-progressbar {
-    background-color: #e0e0e0; /* Arka plan rengi */
+    background-color: #e0e0e0; 
 }
   
-  /* İlerleme (progress) kısmının rengini değiştirin */
 .swiper-pagination-progressbar 
 .swiper-pagination-progressbar-fill {
-    background-color: #57000f; /* İlerleme rengini değiştirin */
+    background-color: #57000f; 
 }
 
 .project{
@@ -454,9 +451,9 @@ h1{
 
 .certificates_container{
     max-width: 700px;
-    margin: 0 auto; /* Kapsayıcıyı ortalar */
+    margin: 0 auto; 
     display: flex;
-    justify-content: center; /* İçeriği ortalar */
+    justify-content: center; 
 }
 
 .timeline-container {
@@ -479,7 +476,7 @@ h1{
     content: "";
     position: absolute;
     top: 80%;
-    width: 80%; /* Çizgiyi daha dar yaparak sola kaydırdık */
+    width: 80%; 
     left: 10%;
     height: 6px;
     background-color: #57000f;
@@ -564,7 +561,6 @@ h1{
     transition: width 0.5s;
 }
 
-  /* Seviyeye göre renkler */
 .beginner { width: 25%; background: #ff4d4d; }
 .medium { width: 50%; background: #ffcc00; }
 .good { width: 75%; background: #4db8ff; }
@@ -622,7 +618,7 @@ h1{
     }
 
     .about_container {
-        flex-wrap: nowrap;      /* Büyük ekranlarda yan yana kalsın */
+        flex-wrap: nowrap;     
     }
 
     .about_buttons{
@@ -643,8 +639,8 @@ h1{
     }
     
     .timeline {
-        flex-direction: column;  /* Yatay yerine dikey yapı */
-        min-width: unset; /* Min genişlik sınırını kaldır */
+        flex-direction: column;  
+        min-width: unset; 
         padding: 50px 0;
     }
 
@@ -662,7 +658,7 @@ h1{
     }
 
     .education:before {
-        top: 200px; /* Noktaları üstte konumlandır */
+        top: 200px; 
         left: 50%;
     }
 
@@ -690,8 +686,8 @@ h1{
     }
 
     .timeline {
-        flex-direction: column;  /* Yatay yerine dikey yapı */
-        min-width: unset; /* Min genişlik sınırını kaldır */
+        flex-direction: column; 
+        min-width: unset; 
         padding: 50px 0;
     }
 
@@ -709,7 +705,7 @@ h1{
     }
 
     .education:before {
-        top: 200px; /* Noktaları üstte konumlandır */
+        top: 200px; 
         left: 50%;
     }
 
@@ -745,7 +741,7 @@ h1{
     .desc-item {
         word-wrap: break-word;
         overflow-wrap: break-word;
-        hyphens: auto; /* Otomatik tireleme yapar */
+        hyphens: auto;
         padding: 0 20px 0 20px;
     }
 
@@ -754,8 +750,8 @@ h1{
     }
 
     .timeline {
-        flex-direction: column;  /* Yatay yerine dikey yapı */
-        min-width: unset; /* Min genişlik sınırını kaldır */
+        flex-direction: column;
+        min-width: unset;
         padding: 50px 0;
     }
 
@@ -773,7 +769,7 @@ h1{
     }
 
     .education:before {
-        top: 200px; /* Noktaları üstte konumlandır */
+        top: 200px;
         left: 50%;
     }
 
@@ -786,7 +782,7 @@ h1{
 @media screen and (min-width : 300px) and (max-width : 330px) {
 
     .education:before {
-        top: 260px; /* Noktaları üstte konumlandır */
+        top: 260px;
         left: 50%;
     }
 
@@ -795,7 +791,7 @@ h1{
 @media screen and (min-width : 330px) and (max-width : 370px) {
 
     .education:before {
-        top: 250px; /* Noktaları üstte konumlandır */
+        top: 250px;
         left: 50%;
     }
 
@@ -806,16 +802,18 @@ h1{
     content: ''
 }
 
-.membership-item {
-    background: #ffbab3;                 /* Yazı kısmı genişliği doldursun */
-    min-width: 250px;          /* Küçük ekranlarda kırılmayı önler */
+.membership-item,
+.experience-item {
+    background: #ffbab3; 
+    min-width: 250px; 
     max-width: 800px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     padding: 15px;
 }
 
-.membership_container{
+.membership_container,
+.experience_container{
     display: flex;
     justify-content: center;
 }
@@ -824,22 +822,26 @@ h4{
     font-weight: normal;
 }
 
-.membership_desc{
+.membership_desc,
+.experience_desc{
     margin-top: 25px;
 }
 
 .membership-date,
-.certificate-date{
+.certificate-date,
+.experience-date{
     margin-top: 10px;
 }
 
 .membership-role,
-.certificate_org{
+.certificate_org,
+.experience-role{
     margin-bottom: 0;
     font-weight: bold;
 }
 
 .membership-name,
-.certificate-name{
+.certificate-name,
+.experience-name{
     margin-top: 0
 }
