@@ -396,7 +396,8 @@ h1{
     background-color: #57000f; 
 }
 
-.project{
+.project,
+.experience_item {
     display: flex;
     align-items: center;
     padding-left: 0;
@@ -409,7 +410,8 @@ h1{
     min-width: 210px;
 }
 
-.project-desc{
+.project-desc,
+.experience_desc{
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
@@ -423,7 +425,8 @@ h1{
     color: #ac86f7;
 }
 
-.projects_container{
+.projects_container,
+.experience_container{
     max-width: 1000px;
 }
 
@@ -633,7 +636,8 @@ h1{
         min-width: 210px;
     }
 
-    .project-desc{
+    .project-desc,
+    .experience_desc{
         margin-left: 40px;
         margin-right: 40px;
     }
@@ -670,6 +674,7 @@ h1{
 @media screen and (min-width : 568px) and (max-width : 768px) {
 
     .project,
+    .experience_item,
     .certificate{
         flex-direction: column;
         justify-content: center;
@@ -677,11 +682,13 @@ h1{
         width: 100%;
     }
 
-    .projects_container{
+    .projects_container,
+    .experience_container{
         margin: 0;
     }
 
-    .project-header{
+    .project-header,
+    .experience_overall{
         margin-left: 0;
     }
 
@@ -717,7 +724,8 @@ h1{
 
 @media screen and (min-width : 300px) and (max-width : 568px) {
 
-    .project,
+    .project, 
+    .experience_item,
     .certificate{
         flex-direction: column;
         justify-content: center;
@@ -725,15 +733,18 @@ h1{
     }
 
     .projects_container,
+    .experience_container,
     .certificates_container{
         margin: 0;
     }
 
-    .project-header{
+    .project-header,
+    .experience_overall{
         margin-left: 0;
     }
 
-    .project-desc{
+    .project-desc,
+    .experience_desc{
         margin-left: 0;
         margin-right: 0;
     }
@@ -806,14 +817,20 @@ h1{
 .experience-item {
     background: #ffbab3; 
     min-width: 250px; 
-    max-width: 800px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.membership-item{
+    max-width: 800px;
     padding: 15px;
 }
 
-.membership_container,
-.experience_container{
+.experience-item {
+    max-width: 1000px;
+}
+
+.membership_container{
     display: flex;
     justify-content: center;
 }
@@ -822,8 +839,7 @@ h4{
     font-weight: normal;
 }
 
-.membership_desc,
-.experience_desc{
+.membership_desc{
     margin-top: 25px;
 }
 

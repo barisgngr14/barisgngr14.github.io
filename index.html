@@ -73,7 +73,7 @@
                     </div>
 
                     <div>
-                        <span class="about_info-title">4</span>
+                        <span class="about_info-title">5</span>
                         <span class="about_info-name">Completed <br> Project</span>
                     </div>
 
@@ -84,10 +84,10 @@
                 </div>
 
                 <div class="about_buttons">
-                    <a href="pdf/CV English.pdf" class="button button-flex">
+                    <a href="pdf/cv_english.pdf" class="button button-flex">
                         Download CV (English) <i class="uil uil-download-alt button_icon"></i>
                     </a>
-                    <a href="pdf/CV Türkçe.pdf" class="button button-flex">
+                    <a href="pdf/cv_turkish.pdf" class="button button-flex">
                         Download CV (Turkish) <i class="uil uil-download-alt button_icon"></i>
                     </a>
                 </div>
@@ -121,22 +121,50 @@
 
     <section id="experience">
         <h2>Experience</h2>
-        <div class="experience_container">
-            <div class="experience-item">
-                <div class="experience_overall">
-                    <h3 class="experience-role">Intern - Technology and Business Solutions Directorate</h3>
-                    <h2 class="experience-name">BITES Defence and Aerospace Technologies</h2>
-                    <img src="images/bites.jpg" alt="company logo">
-                    <h4 class="experience-date">Aug 2025 - Sep 2025</h4>
+        <div class="swiper mySwiper experience_container">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide experience-item">
+                    <div class="experience_overall">
+                        <h3 class="experience-role">Candidate Engineer - NC Engineering</h3>
+                        <h2 class="experience-name">Turkish Aerospace Industries</h2>
+                        <img src="images/turkish_aerospace.png" alt="company logo">
+                        <h4 class="experience-date">Nov 2025 - May 2026</h4>
+                    </div>
+                    <div class="experience_desc">
+                        <p class="desc-item">During my long-term candidate engineering program, I developed as a core technical project. 
+                            This system automates industrial part assignment with machine learning and production scheduling. 
+                            The desktop application features a Python-based Tkinter GUI integrated with an XGBoost machine learning model that 
+                            dynamically pairs manufacturing tasks with technicians based on employee skill matrices. 
+                            To optimize factory workflow, the system calculates manufacturing cycle times, automatically schedules tasks
+                            and renders real-time Gantt charts to track production efficiency and employee utilization.
+                        </p>
+                    </div>
                 </div>
-                <div class="experience_desc">
-                    <p>During my internship at BITES Defence and Aerospace Technologies, I had the opportunity to work in the Technology and Business Solutions Department.
-                        My experience in this department not only enhanced my technical skills but also provided a strong foundation in simplifying complex processes, optimizing team communication, and accurately analyzing user needs.
-                        I combined these learnings with the idea of transforming information into an interactive and instructive structure. 
-                        This journey —from complexity to informed decision-making— enabled me to position technology not merely as a tool, but as a guide.
-                    </p>
+                <div class="swiper-slide experience-item">
+                    <div class="experience_overall">
+                        <h3 class="experience-role">Intern - Technology and Business Solutions Directorate</h3>
+                        <h2 class="experience-name">BITES Defence and Aerospace Technologies</h2>
+                        <img src="images/bites.jpg" alt="company logo">
+                        <h4 class="experience-date">Aug 2025 - Sep 2025</h4>
+                    </div>
+                    <div class="experience_desc">
+                        <p class="desc-item">During my internship at BITES Defence and Aerospace Technologies, I had the opportunity to work in the Technology and Business Solutions Department.
+                            My experience in this department not only enhanced my technical skills but also provided a strong foundation in simplifying complex processes, optimizing team communication, and accurately analyzing user needs.
+                            I combined these learnings with the idea of transforming information into an interactive and instructive structure. 
+                            This journey —from complexity to informed decision-making— enabled me to position technology not merely as a tool, but as a guide.
+                        </p>
+                    </div>
                 </div>
+
             </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev">
+                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-button-next">
+                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div> 
         </div>
     </section>
 
@@ -164,11 +192,11 @@
                 <div class="skill-bar"><div class="skill-fill excellent"></div></div>
             </div>
             <div class="skill-item">
-                <h3 class="skill-title"><i class="uil uil-letter-english-a skill-icon"></i>English</h3>
-                <div class="skill-bar"><div class="skill-fill good"></div></div>
+                <h3 class="skill-title"><i class="devicon-python-plain skill-icon"></i>Python</h3>
+                <div class="skill-bar"><div class="skill-fill excellent"></div></div>
             </div>
             <div class="skill-item">
-                <h3 class="skill-title"><i class="devicon-python-plain skill-icon"></i>Python</h3>
+                <h3 class="skill-title"><i class="uil uil-letter-english-a skill-icon"></i>English</h3>
                 <div class="skill-bar"><div class="skill-fill good"></div></div>
             </div>
             <div class="skill-item">
@@ -184,7 +212,7 @@
                 <div class="skill-bar"><div class="skill-fill good"></div></div>
             </div>
             <div class="skill-item">
-                <h3 class="skill-title"><img src="https://simpleicons.org/icons/canva.svg" class="skill-icon canva-icon">Canva</h3>
+                <h3 class="skill-title"><img src="images/canva.svg" class="skill-icon canva-icon">Canva</h3>
                 <div class="skill-bar"><div class="skill-fill good"></div></div>
             </div>
             <div class="skill-item">
@@ -222,7 +250,7 @@
             </div>
             <div class="skill-item">
                 <h3 class="skill-title"><i class="uil uil-chart-line skill-icon"></i>Data Analysis</h3>
-                <div class="skill-bar"><div class="skill-fill beginner"></div></div>
+                <div class="skill-bar"><div class="skill-fill medium"></div></div>
             </div>
             <div class="skill-item">
                 <h3 class="skill-title">
@@ -241,6 +269,24 @@
         <h2>Projects</h2>
         <div class="swiper mySwiper projects_container">
             <div class="swiper-wrapper">
+                <div class="swiper-slide project">
+                    <div class="project-header">
+                        <img src="images/microsuit_web.png" alt="2209-A" class="project-img">
+                        <h2>Micromobility Suitability Decision Support System - MicroSUIT</h2>
+                        <h4>Oct 2024 - June 2025</h4>
+                    </div>
+                    <div class="project-desc">
+                        <p class="desc-item">
+                            MicroSUIT is an end-to-end Smart City and Urban Transformation Suitability Analysis system engineered specifically to evaluate and map infrastructure adaptability across Gölbaşı. 
+                            The advanced data pipeline begins by OSMnx dataset and feeding thousands of raw Google Street View images into a SegFormer (ViT)
+                            architecture for pixel-level semantic segmentation to extract physical layout metrics. Then, live traffic density is ingested via the Google Maps API, 
+                            while infrastructure and accessibility conditions are evaluated through a Large Language Model (LLM). 
+                            These independent data layers are then processed using an Analytical Hierarchy Process (AHP) mathematical model to weigh transformation priorities. 
+                            Finally, the resulting suitability scores are visualized via GeoPandas to generate high-fidelity spatial maps of Gölbaşı. 
+                        </p>   
+                        <a href="pdf/microsuit_2209.pdf" class="repo-link button">Project Document</a>   
+                    </div> 
+                </div>
                 <div class="swiper-slide project">
                     <div class="project-header">
                         <img src="images/ChatWork.jpg" alt="ChatWork" class="project-img">
@@ -262,8 +308,8 @@
                     <div class="project-header">
                         <img src="images/Memorability.png" alt="Memorability" class="project-img">            
                         <h2>Video Memorability Project <br> 
-                        (UBMK 2025 - MediaEval 2025)</h2>
-                        <h4>Feb 2025 - Ongoing</h4>
+                        (UBMK 2025)</h2>
+                        <h4>Feb 2025 - Sep 2025</h4>
                     </div>
                     <div class="project-desc">
                         <p class="desc-item">
@@ -273,7 +319,7 @@
                             So far, we have created memorability classes for videos in the publicly available VideoMem and Memento10K datasets and trained the model based on specific visual features (e.g., HOG). 
                             We presented our work at UBMK 2025 and are now preparing a paper for the "Memorability" task organized within the scope of the MediaEval 2025 workshop.
                         </p>
-                        <a href="https://multimediaeval.github.io/editions/2025/tasks/memorability/" class="repo-link button">Task Link</a>   
+                        <a href="pdf/memorability_paper.pdf" class="repo-link button">Final Paper</a>   
                     </div> 
                 </div>
                 <div class="swiper-slide project">
@@ -348,8 +394,8 @@
         <div class="membership_container">
             <div class="membership-item">
                 <div class="membership_overall">
-                    <h3 class="membership-role">Board Member</h3>
-                    <h2 class="membership-name">Ankara Üniversitesi Dijital Teknolojiler ve Yazılım (Digiware) Topluluğu</h2>
+                    <h3 class="membership-role">Vice President</h3>
+                    <h2 class="membership-name">Digital Technologies and Software (DIGIWARE) Community</h2>
                     <h4 class="membership-date">Mar 2025 - Ongoing</h4>
                 </div>
                 <div class="membership_desc">
@@ -406,7 +452,7 @@
     </section>
 
     <footer>
-        <p class="last_update">Last Update: 29/09/2025 21.41</p>
+        <p class="last_update">Last Update: 26/05/2026 01.31</p>
         <p class="footer-text">&copy; 2025 Barış GÜNGÖR. - All Rights Reserved.</p>
     </footer>
 
